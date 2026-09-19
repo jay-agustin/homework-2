@@ -52,9 +52,9 @@ canvas_collatz(
 )
 ```
 
-This ggplot shows how many steps (or the general path) it takes for the starting integer ($n = 10$) to reach 1. It’s made to be plotted in blue.
+This ggplot shows how many steps (or the general path) it takes for a set of starting integers ($n = 10$) to reach 1. It’s made to be plotted in blue.
 
-
+#### b) Different Output?
 
 
 
