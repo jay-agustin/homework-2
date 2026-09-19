@@ -20,3 +20,19 @@ The function “install.packages()” lets you download pre-made functions and d
 
 The function “library()” loads the installed package in your current R session. It’s similar to checking the box next to the package you want to use in the Packages tab. You might want to dedicate a code chunk to all the packages you'll use so your document renders properly.
 
+\newpage
+
+# Packages
+
+## Question 2
+
+```{r}
+library(aRtsy)
+```
+
+Collatz Conjecture:
+
+$$f(n) = \begin{cases} 
+      \frac{n}{2} & \text{if } n = 0 \ (\text{mod}\ 2) \\
+      \frac{3n + 1}{2} & \text{if } n = 1 \ (\text{mod}\ 2)
+   \end{cases}$$
