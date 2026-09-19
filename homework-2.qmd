@@ -2,8 +2,6 @@
 title: "homework-2"
 author:
 - name: Jay Agustin
-  affiliation: NC State University
-  email: alagusti@ncsu.edu
 format: pdf
 editor: visual
 ---
@@ -60,7 +58,7 @@ This ggplot shows how many steps (or the general path) it takes for a set of sta
 
 - This means it might look different and inconsistent each time you render it.
 
-- With set.seed(), you use the same random set of integers associated with the seed number you provide, so you get the same result when you render it.
+- With set.seed(), you use the same random set of integers associated with the seed number you provide (freezing or locking it in place), so you get the same result when you render it.
 
 ```{r}
 set.seed(9)
@@ -70,5 +68,35 @@ canvas_collatz(
     n = 10
 )
 ```
+
+\newpage
+
+## Question 4
+
+```{r}
+set.seed(1)
+
+canvas_collatz(
+  colors = c("blue"),
+  n = 1:20
+)
+```
+
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  n = 1:20
+)
+```
+
+Let’s say you use a set of integers associated with seed 1. Even if you run the code without setting a seed, it produces the same plot. This is because $n = 1:20$ overrides the seed. You are essentially telling R to use the exact integers 1 through 20 as the starting values, instead of random ones.
+
+
+
+
+
+
+
+
 
 
