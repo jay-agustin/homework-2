@@ -1,0 +1,22 @@
+---
+title: "homework-2"
+author:
+- name: Jay Agustin
+  affiliation: NC State University
+  email: alagusti@ncsu.edu
+format: pdf
+editor: visual
+---
+
+## Question 1
+
+```{r}
+#| eval: false
+
+install.packages("aRtsy")
+```
+
+The function “install.packages()” lets you download pre-made functions and datasets for use in future sessions. Once you install them, you won’t need to do it again.
+
+The function “library()” loads the installed package in your current R session. It’s similar to checking the box next to the package you want to use in the Packages tab. You might want to dedicate a code chunk to all the packages you'll use so your document renders properly.
+
