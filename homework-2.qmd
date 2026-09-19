@@ -39,7 +39,20 @@ $$f(n) = \begin{cases}
    
 The Collatz conjecture, or the $3n+1$ problem, claims that no matter which positive integer you start with, you will eventually reach 1. 
 
+\newpage
 
+## Question 3
+
+#### a) Canvas_collatz()
+
+```{r}
+canvas_collatz(
+  colors = c("blue"),
+  n = 10
+)
+```
+
+This ggplot shows how many steps (or the general path) it takes for the starting integer ($n = 10$) to reach 1. It’s made to be plotted in blue.
 
 
 
