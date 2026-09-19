@@ -36,3 +36,12 @@ $$f(n) = \begin{cases}
       \frac{n}{2} & \text{if } n = 0 \ (\text{mod}\ 2) \\
       \frac{3n + 1}{2} & \text{if } n = 1 \ (\text{mod}\ 2)
    \end{cases}$$
+   
+The Collatz conjecture, or the $3n+1$ problem, claims that no matter which positive integer you start with, you will eventually reach 1. 
+
+
+
+
+
+
+
